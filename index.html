@@ -1,18 +1,24 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="My Space: portafolio personal y proyectos.">
-  <title>My Space | Portafolio</title>
+  <meta name="description" content="My Space: portafolio personal de Mathieu Molina.">
+  <title>My Space | Mathieu Molina</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+
   <header class="site-header">
     <a class="brand" href="#inicio">my space<span>.</span></a>
+
     <nav aria-label="Navegación principal">
       <a href="#sobre-mi">Sobre mí</a>
       <a href="#intereses">Intereses</a>
@@ -21,79 +27,236 @@
   </header>
 
   <main>
+
     <section class="hero" id="inicio">
       <p class="eyebrow">PORTAFOLIO PERSONAL</p>
+
       <h1>Un espacio para<br><em>crear y descubrir.</em></h1>
-      <p class="hero-copy">Ideas, intereses y proyectos que forman parte de mi camino en la tecnología.</p>
+
+      <p class="hero-copy">
+        Ideas, intereses y proyectos que forman parte de mi camino
+        en la tecnología y el deporte.
+      </p>
+
       <a class="text-link" href="#sobre-mi">Conóceme <span>↗</span></a>
+
       <div class="hero-mark" aria-hidden="true">✳</div>
     </section>
 
     <section class="section about" id="sobre-mi">
-      <div class="section-label">01 / SOBRE MÍ</div>
-      <div>
-        <h2>Hola, soy estudiante de<br><em>Ingeniería en Ciencias de la Computación.</em></h2>
-        <p>Me interesa el mundo de la tecnología y la programación. Durante mi formación busco desarrollar nuevas habilidades, aprender sobre el desarrollo de software y crear proyectos que me permitan poner en práctica mis conocimientos.</p>
+
+      <div class="section-label">01 / ACERCA DE MÍ</div>
+
+      <div class="about-content">
+
+        <p class="eyebrow">HOLA, SOY MATHIEU MOLINA</p>
+
+        <h2>Dos pasiones,<br><em>un camino por construir.</em></h2>
+
+        <p>
+          Soy estudiante de <strong>Ingeniería en Ciencias de la Computación</strong>
+          y una persona apasionada por aprender, explorar nuevas ideas y asumir
+          retos que me ayuden a crecer tanto personal como profesionalmente.
+        </p>
+
+        <p>
+          Me interesa especialmente el mundo de la tecnología, la programación
+          y el diseño. Disfruto descubrir nuevas herramientas, experimentar con
+          ideas y desarrollar proyectos que me permitan transformar lo que
+          aprendo en algo práctico y creativo.
+        </p>
+
+        <p>
+          Pero hay otra parte muy importante de mi vida: el fútbol.
+          Es uno de mis mayores pasatiempos y también uno de mis grandes sueños.
+          Actualmente juego para el equipo de la
+          <strong>Universidad San Francisco</strong>, donde busco seguir
+          mejorando mis habilidades, aprender de cada experiencia y crecer
+          como deportista.
+        </p>
+
+        <p>
+          A futuro, uno de mis grandes objetivos es llegar a jugar fútbol
+          profesionalmente. Sé que es un camino que requiere disciplina,
+          constancia y dedicación, valores que también intento aplicar
+          en mi formación académica.
+        </p>
+
+        <p>
+          Quiero seguir construyendo mi camino en la tecnología sin dejar
+          de luchar por mis metas deportivas. Mi propósito es crecer en ambos
+          ámbitos, superar mis propios límites y aprovechar cada oportunidad
+          para convertirme en una mejor versión de mí mismo.
+        </p>
+
+        <div class="about-tags">
+          <span>Curiosidad</span>
+          <span>Disciplina</span>
+          <span>Creatividad</span>
+          <span>Constancia</span>
+        </div>
+
       </div>
     </section>
 
-    <section class="section" id="intereses">
+    <section class="section gallery-section" id="intereses">
+
       <div class="section-label">02 / LO QUE ME INSPIRA</div>
+
       <div class="section-content">
-        <h2>Mis intereses<span>.</span></h2>
-        <div class="interest-grid">
-          <article class="interest-card">
-            <div class="interest-symbol">✳</div>
-            <h3>Diseño</h3>
-            <p>Me gusta explorar ideas visuales y crear diseños que sean atractivos, claros y funcionales.</p>
+
+        <h2>Un poco de mi mundo<span>.</span></h2>
+
+        <p class="section-intro">
+          Estas son algunas de las cosas que disfruto y que forman parte de mis metas.
+        </p>
+
+        <div class="gallery-grid">
+
+          <article class="gallery-card gallery-tall">
+            <img
+              src="https://images.mlssoccer.com/image/private/t_photogallery/f_auto/mls-tor-prd/ivsmuonzzoty6tlde74d.jpg"
+              alt="Futbolista entrenando en la cancha"
+              loading="lazy"
+            >
+            <div class="gallery-caption">
+              <span>01 / DEPORTE</span>
+              <h3>Fútbol y entrenamiento</h3>
+              <p>Una pasión que me impulsa a mejorar cada día.</p>
+            </div>
           </article>
-          <article class="interest-card">
-            <div class="interest-symbol">⌘</div>
-            <h3>Tecnología</h3>
-            <p>Me interesa conocer nuevas herramientas y descubrir cómo la tecnología puede resolver problemas.</p>
+
+          <article class="gallery-card">
+            <img
+              src="https://mrdu.edu.in/uploads/departments/2025/cse.jpg?v=1780060413"
+              alt="Computadora con código en pantalla"
+              loading="lazy"
+            >
+            <div class="gallery-caption">
+              <span>02 / TECNOLOGÍA</span>
+              <h3>Programación</h3>
+              <p>Aprender, experimentar y crear soluciones.</p>
+            </div>
           </article>
-          <article class="interest-card">
-            <div class="interest-symbol">↗</div>
-            <h3>Deportes</h3>
-            <p>Disfruto los deportes porque fomentan la disciplina, la constancia y la superación personal.</p>
+
+          <article class="gallery-card">
+            <img
+              src="https://www.book.fr/images/www/articles/650/organiser-planches-storytelling-visuel.jpg"
+              alt="Referencias visuales y materiales de diseño"
+              loading="lazy"
+            >
+            <div class="gallery-caption">
+              <span>03 / CREATIVIDAD</span>
+              <h3>Diseño</h3>
+              <p>Ideas visuales que combinan estética y funcionalidad.</p>
+            </div>
           </article>
+
+          <article class="gallery-card gallery-wide">
+            <img
+              src="https://images.mlssoccer.com/image/private/t_photogallery/f_auto/mls-tor-prd/ivsmuonzzoty6tlde74d.jpg"
+              alt="Entrenamiento de fútbol en una cancha"
+              loading="lazy"
+            >
+            <div class="gallery-caption">
+              <span>04 / SUPERACIÓN</span>
+              <h3>Disciplina y constancia</h3>
+              <p>El esfuerzo diario es parte del camino hacia mis objetivos.</p>
+            </div>
+          </article>
+
         </div>
+
+        <p class="image-note">
+          Fotografías ilustrativas; representan mis intereses y no son fotografías personales.
+        </p>
+
       </div>
     </section>
 
     <section class="section projects" id="proyectos">
+
       <div class="section-label">03 / COSAS QUE HE CREADO</div>
+
       <div class="section-content">
+
         <h2>Proyectos<span>.</span></h2>
+
         <article class="project-card">
+
           <div class="project-number">PROYECTO 01</div>
+
           <div class="project-info">
             <h3>StudentFlow</h3>
-            <p>Un proyecto digital enfocado en apoyar la organización de actividades y tareas estudiantiles.</p>
-            <p class="project-tech">Desarrollado con HTML, CSS y JavaScript. Publicado mediante GitHub Pages. (Completar aquí los detalles exactos sobre almacenamiento y funcionamiento después de revisar el proyecto.)</p>
-            <a class="text-link" href="https://vex7589-sketch.github.io/StudentFlow/" target="_blank" rel="noopener">Ver proyecto ↗</a>
-            <a class="sub-link" href="https://github.com/vex7589-sketch/StudentFlow" target="_blank" rel="noopener">Ver repositorio</a>
+
+            <p>
+              Un proyecto digital enfocado en apoyar la organización
+              de actividades y tareas estudiantiles.
+            </p>
+
+            <p class="project-tech">
+              Desarrollado con HTML, CSS y JavaScript. Publicado mediante
+              GitHub Pages. Pendiente verificar los detalles exactos
+              sobre almacenamiento y funcionamiento.
+            </p>
+
+            <a class="text-link"
+               href="https://vex7589-sketch.github.io/StudentFlow/"
+               target="_blank" rel="noopener">
+              Ver proyecto ↗
+            </a>
+
+            <a class="sub-link"
+               href="https://github.com/vex7589-sketch/StudentFlow"
+               target="_blank" rel="noopener">
+              Ver repositorio
+            </a>
           </div>
+
         </article>
+
         <article class="project-card project-placeholder">
+
           <div class="project-number">PROYECTO 02</div>
+
           <div class="project-info">
             <h3>Próximamente</h3>
-            <p>Aquí agregaré mi segundo proyecto, con una descripción de su propósito, tecnologías y publicación.</p>
+
+            <p>
+              Aquí agregaré mi segundo proyecto, con una descripción
+              de su propósito, tecnologías y publicación.
+            </p>
+
             <span class="sub-link">En construcción</span>
           </div>
+
         </article>
+
       </div>
     </section>
 
     <section class="closing" id="sobre-este-sitio">
+
       <p class="eyebrow">04 / SOBRE ESTE SITIO</p>
+
       <h2>Menos ruido,<br><em>más intención.</em></h2>
-      <p>Elegí una paleta de tonos neutros y una estructura sencilla para que el contenido y los proyectos sean los protagonistas.</p>
+
+      <p>
+        Elegí una paleta de tonos neutros y una estructura sencilla
+        para que el contenido, mis intereses y mis proyectos
+        sean los protagonistas.
+      </p>
+
     </section>
+
   </main>
 
-  <footer><span>my space.</span><span>Hecho con curiosidad · 2026</span></footer>
+  <footer>
+    <span>my space.</span>
+    <span>Hecho con curiosidad · 2026</span>
+  </footer>
+
   <script src="script.js"></script>
+
 </body>
 </html>
